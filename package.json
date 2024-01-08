@@ -7,8 +7,6 @@
     "start": "vinxi start"
   },
   "dependencies": {
-    "@depict-ai/plp-styling": "^2.0.6",
-    "@depict-ai/ui": "^3.0.27",
     "@solidjs/meta": "^0.29.3",
     "@solidjs/router": "^0.10.6",
     "@solidjs/start": "^0.4.3",

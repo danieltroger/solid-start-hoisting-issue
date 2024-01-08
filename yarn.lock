@@ -352,7 +352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-typescript@npm:^7.22.9, @babel/plugin-transform-typescript@npm:^7.23.3":
+"@babel/plugin-transform-typescript@npm:^7.23.3":
   version: 7.23.6
   resolution: "@babel/plugin-transform-typescript@npm:7.23.6"
   dependencies:
@@ -378,25 +378,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: e72b654c7f0f08b35d7e1c0e3a59c0c13037f295c425760b8b148aa7dde01e6ddd982efc525710f997a1494fafdd55cb525738c016609e7e4d703d02014152b7
-  languageName: node
-  linkType: hard
-
-"@babel/runtime-corejs3@npm:^7.22.6, @babel/runtime-corejs3@npm:latest":
-  version: 7.23.7
-  resolution: "@babel/runtime-corejs3@npm:7.23.7"
-  dependencies:
-    core-js-pure: "npm:^3.30.2"
-    regenerator-runtime: "npm:^0.14.0"
-  checksum: 7230942b6dadddd68334283068f360323c6df205542811bd7e37384ebfc0b5dcc266470db99e5905a8c6e3bb9898f7f066dde145b33b560acd271118ed9b41b2
-  languageName: node
-  linkType: hard
-
-"@babel/runtime@npm:latest":
-  version: 7.23.7
-  resolution: "@babel/runtime@npm:7.23.7"
-  dependencies:
-    regenerator-runtime: "npm:^0.14.0"
-  checksum: 3e304133ee55b0750e03e53cb4efb47fb2bdcdb5795f85bbffa10595196c34b9be60eb65bd6d833c87f49fc827f0365f86f95f51d85b188004d3128bb5129c93
   languageName: node
   linkType: hard
 
@@ -446,50 +427,6 @@ __metadata:
   dependencies:
     mime: "npm:^3.0.0"
   checksum: 48513edcacfbeddece7750e6786ac0b35121fa30e9896ff5cc78f7f44d6f4ba436af517e8b861d13b04be34f4321a2dd4df992b6a2b82ee2fff2c555d58db46b
-  languageName: node
-  linkType: hard
-
-"@depict-ai/plp-styling@npm:^2.0.6":
-  version: 2.0.6
-  resolution: "@depict-ai/plp-styling@npm:2.0.6"
-  peerDependencies:
-    sass: ">= 1.54.6"
-  checksum: 1507204b246f2a150ff53f623e9ade6f19deea1f18384bbb6a0084819db20f856a5ae4818625f628fcdf39c6c59c0f2373e11f519c187b4c9c5db12e10322823
-  languageName: node
-  linkType: hard
-
-"@depict-ai/types@npm:^5.0.3":
-  version: 5.0.3
-  resolution: "@depict-ai/types@npm:5.0.3"
-  checksum: 800200eca7d0da84215e4d80b317f6163d3dbc317052cef4f7d34a377460b69875dcfcd4ea669740fbcbbb2b2588d1a3d54b1daebbb7f33813a273ff9cbc3661
-  languageName: node
-  linkType: hard
-
-"@depict-ai/ui@npm:^3.0.27":
-  version: 3.0.27
-  resolution: "@depict-ai/ui@npm:3.0.27"
-  dependencies:
-    "@babel/plugin-transform-typescript": "npm:^7.22.9"
-    "@babel/runtime": "npm:latest"
-    "@babel/runtime-corejs3": "npm:^7.22.6"
-    "@depict-ai/plp-styling": "npm:^2.0.6"
-    "@depict-ai/types": "npm:^5.0.3"
-    "@depict-ai/utilishared": "npm:^2.0.9"
-    solid-js: "npm:^1.8.7"
-  checksum: 43748ff2e139ce468a2f44ed7f7a3ed599cd93dda14ebd149f9e9a7a71dad5c5a5a4db4b94d839b8878619fcfdfdcb7ad6d0551d559f53a61ba82f7ebb63751a
-  languageName: node
-  linkType: hard
-
-"@depict-ai/utilishared@npm:^2.0.9":
-  version: 2.0.9
-  resolution: "@depict-ai/utilishared@npm:2.0.9"
-  dependencies:
-    "@babel/plugin-transform-typescript": "npm:^7.22.9"
-    "@babel/runtime": "npm:latest"
-    "@babel/runtime-corejs3": "npm:latest"
-    "@sentry/browser": "npm:^7.75.1"
-    solid-js: "npm:^1.8.7"
-  checksum: 5e3d0e53b0932e8353725922da31a9caf72ef631926aadab3f0bba5fbe546f562bc20b458d88dc191b9642d74e124ca8ca845c41a66337c1784c88a90923214d
   languageName: node
   linkType: hard
 
@@ -1443,80 +1380,6 @@ __metadata:
   version: 4.9.2
   resolution: "@rollup/rollup-win32-x64-msvc@npm:4.9.2"
   conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@sentry-internal/feedback@npm:7.92.0":
-  version: 7.92.0
-  resolution: "@sentry-internal/feedback@npm:7.92.0"
-  dependencies:
-    "@sentry/core": "npm:7.92.0"
-    "@sentry/types": "npm:7.92.0"
-    "@sentry/utils": "npm:7.92.0"
-  checksum: 36650e289962d7e4219a54cef89e8f110a4314fb01b1b34fc205790554ce5615c56b5a40aa6ee5e65914e139d03197e81d595f37009dba6479b99a82af211d1e
-  languageName: node
-  linkType: hard
-
-"@sentry-internal/tracing@npm:7.92.0":
-  version: 7.92.0
-  resolution: "@sentry-internal/tracing@npm:7.92.0"
-  dependencies:
-    "@sentry/core": "npm:7.92.0"
-    "@sentry/types": "npm:7.92.0"
-    "@sentry/utils": "npm:7.92.0"
-  checksum: bb0548ed351cb16fbe1e37d7ee72494c6923cf5c5c89f47ae6d2c61b4cfbefdb9946bf091407b7ab798e72e3d8116fcbc8c4370645780a60c7d3868196b7e30c
-  languageName: node
-  linkType: hard
-
-"@sentry/browser@npm:^7.75.1":
-  version: 7.92.0
-  resolution: "@sentry/browser@npm:7.92.0"
-  dependencies:
-    "@sentry-internal/feedback": "npm:7.92.0"
-    "@sentry-internal/tracing": "npm:7.92.0"
-    "@sentry/core": "npm:7.92.0"
-    "@sentry/replay": "npm:7.92.0"
-    "@sentry/types": "npm:7.92.0"
-    "@sentry/utils": "npm:7.92.0"
-  checksum: 3e04cdf501dd041fab7a5df12621cbd33dd53d4cc304e23374bca2fbae78fcc331eb1b99f8ebddef19325bac5d0fddf1101c0f876ba7af04ac21fd9447355a69
-  languageName: node
-  linkType: hard
-
-"@sentry/core@npm:7.92.0":
-  version: 7.92.0
-  resolution: "@sentry/core@npm:7.92.0"
-  dependencies:
-    "@sentry/types": "npm:7.92.0"
-    "@sentry/utils": "npm:7.92.0"
-  checksum: a0c042b479dce2803e9746ad6e58831762a9b9f48a0fc7024377dcc33e170ccac59b76df2946bdf70d420ac07f2b747582f08ece13769140f1fdfcc04ccafa8b
-  languageName: node
-  linkType: hard
-
-"@sentry/replay@npm:7.92.0":
-  version: 7.92.0
-  resolution: "@sentry/replay@npm:7.92.0"
-  dependencies:
-    "@sentry-internal/tracing": "npm:7.92.0"
-    "@sentry/core": "npm:7.92.0"
-    "@sentry/types": "npm:7.92.0"
-    "@sentry/utils": "npm:7.92.0"
-  checksum: 5e6ef56fbac077b931791459b0039d5d033caeb10682b935c63afcc48578e7e90b99671b0528c6a5fdf5934fa8f92f976ded65a7923d0798aed00bb4b84d134a
-  languageName: node
-  linkType: hard
-
-"@sentry/types@npm:7.92.0":
-  version: 7.92.0
-  resolution: "@sentry/types@npm:7.92.0"
-  checksum: fe8b0b2807b85e110e05d3d18c3da4dc2cbd7e9157e5958d3fe2994710da145604a6e2f7f52ae8f8a4b77a5ea03963787b421dfca38a2a68d510c566b8ee50a6
-  languageName: node
-  linkType: hard
-
-"@sentry/utils@npm:7.92.0":
-  version: 7.92.0
-  resolution: "@sentry/utils@npm:7.92.0"
-  dependencies:
-    "@sentry/types": "npm:7.92.0"
-  checksum: a92c6cf69a5bbd158d54c1ef6865cb81acdfaf37e6336a9e64a3db65769ae3b27f900788c5543f9dfa47d6bb8fa9cc5f2afbe24ff3c257d6a4e56829fc03e2b2
   languageName: node
   linkType: hard
 
@@ -2512,13 +2375,6 @@ __metadata:
   version: 1.0.0
   resolution: "cookie-es@npm:1.0.0"
   checksum: 49fb5d5d050e34b5b5f6e31b47d28364d149a31322994568a826a8d137f36792f0365cedc587ab880a1826db41f644d349930523d980f2a0ac3608d63db9263b
-  languageName: node
-  linkType: hard
-
-"core-js-pure@npm:^3.30.2":
-  version: 3.35.0
-  resolution: "core-js-pure@npm:3.35.0"
-  checksum: 4e58b6b2b3759ffbfe3f904beafd547751aaefa87b94245136aced963120bc2cefc8787c7a980cd397c2c408eca141e0993fcda7ed2383c93ce53bc421acfec4
   languageName: node
   linkType: hard
 
@@ -5006,8 +4862,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "pb2@workspace:."
   dependencies:
-    "@depict-ai/plp-styling": "npm:^2.0.6"
-    "@depict-ai/ui": "npm:^3.0.27"
     "@solidjs/meta": "npm:^0.29.3"
     "@solidjs/router": "npm:^0.10.6"
     "@solidjs/start": "npm:^0.4.3"
@@ -5221,13 +5075,6 @@ __metadata:
   dependencies:
     redis-errors: "npm:^1.0.0"
   checksum: ee16ac4c7b2a60b1f42a2cdaee22b005bd4453eb2d0588b8a4939718997ae269da717434da5d570fe0b05030466eeb3f902a58cf2e8e1ca058bf6c9c596f632f
-  languageName: node
-  linkType: hard
-
-"regenerator-runtime@npm:^0.14.0":
-  version: 0.14.1
-  resolution: "regenerator-runtime@npm:0.14.1"
-  checksum: 1b16eb2c4bceb1665c89de70dcb64126a22bc8eb958feef3cd68fe11ac6d2a4899b5cd1b80b0774c7c03591dc57d16631a7f69d2daa2ec98100e2f29f7ec4cc4
   languageName: node
   linkType: hard
 
@@ -5676,7 +5523,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.7.11, solid-js@npm:^1.8.7, solid-js@npm:^1.8.8":
+"solid-js@npm:^1.7.11, solid-js@npm:^1.8.8":
   version: 1.8.8
   resolution: "solid-js@npm:1.8.8"
   dependencies:

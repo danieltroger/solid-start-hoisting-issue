@@ -1,0 +1,26 @@
+{
+  "name": "pb2",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@depict-ai/plp-styling": "^2.0.6",
+    "@depict-ai/ui": "^3.0.27",
+    "@solidjs/meta": "^0.29.3",
+    "@solidjs/router": "^0.10.6",
+    "@solidjs/start": "^0.4.3",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.7",
+    "solid-js": "^1.8.8",
+    "typescript": "^5.3.3",
+    "vinxi": "^0.1.1",
+    "vite": "4.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@4.0.2"
+}

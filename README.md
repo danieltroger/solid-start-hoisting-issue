@@ -1,1 +1,1 @@
-To reproduce: `yarn dev` then visit http://localhost:3000
+To reproduce: `yarn dev` then visit http://localhost:3000, check console
